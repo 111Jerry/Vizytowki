@@ -59,7 +59,7 @@ def create_contacts(typ_of_contact, number):
                 telefon_firmowy = fake.phone_number()
                 e_mail = fake.email()
                 customer_business = BusinessContacts(imie, nazwisko, telefon, stanowisko, firma, telefon_firmowy, e_mail)
-                customer_business.contacts()
+                customer_business.contact()
                 print("Suma liter w imieniu i nazwisku:", customer_business.label_lenght)
         return
 
